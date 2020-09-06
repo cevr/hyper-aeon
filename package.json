@@ -1,0 +1,24 @@
+{
+  "name": "hyper-aeon",
+  "version": "0.9.0",
+  "main": "index.js",
+  "description": "Subtle Hyper theme with bright highlights",
+  "license": "MIT",
+  "repository": "cevr/hyper-aeon",
+  "author": {
+    "name": "Cristian Velasquez Ramos",
+    "email": "seeve.c@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "elegant",
+    "dark"
+  ],
+  "devDependencies": {
+    "np": "^6.5.0"
+  }
+}
