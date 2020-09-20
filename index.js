@@ -41,23 +41,13 @@ exports.decorateConfig = (config) =>
 		/* Hide title when only one tab */
 		.tabs_title {
       display: none !important;
-		}
-		/* Add a highlight line below the active tab */
-		.tab_tab::before {
-      content: '';
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			height: 1px;
-			background-color: ${colors.cursor};
-			transform: scaleX(0);
-			will-change: transform;
-		}
-		.tab_tab.tab_active::before {
-      transform: scaleX(1);
-			transition: all 350ms cubic-bezier(0, 0, 0.2, 1);
-		}
+    }
+    .tab_tab {
+      background-color: ${colors.border};
+    }
+    .tab_tab.tab_active {
+      background: ${colors.background};
+    }
 		/* Fade the title of inactive tabs and the content of inactive panes */
 		.tab_text,
 		.term_term {

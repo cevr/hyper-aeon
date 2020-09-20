@@ -20,5 +20,8 @@
   ],
   "devDependencies": {
     "np": "^6.5.0"
+  },
+  "scripts": {
+    "pub": "yarn np --no-tests"
   }
 }
